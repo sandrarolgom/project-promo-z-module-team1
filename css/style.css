@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    color: #b8b8b9;
+}
+.futter-list {
+    list-style: none;
+    color: #54585a;
+    text-align: center;
+}
