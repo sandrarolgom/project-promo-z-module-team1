@@ -5,6 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --verde-oscuro: #099d8d;
+    --verde-claro: #14d9c4;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris-oscuro: #54585a;
+    --gris-claro: #b8b8b9;
+    --gris-de-fondo: #f1f1f1;
+}
 footer {
     display: flex;
     flex-direction: column;
@@ -12,11 +21,11 @@ footer {
     align-items: center;
 }
 .copyright {
-    color: #b8b8b9;
+    color: var(--gris-claro);
 }
 .futter-list {
     list-style: none;
-    color: #54585a;
+    color: var(--gris-oscuro);
     text-align: center;
 }
 .equipo-container h3 {
