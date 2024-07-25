@@ -3,6 +3,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: $font-all;
 }
 .copyright {
     color: $gris-claro;
@@ -16,9 +17,11 @@ footer {
     padding-top: 10px;
     padding-bottom: 15px;
 }
+.figure {
+    width: 116px;
+}
 .logo-adalab {
     padding-top: 15px;
     padding-bottom: 45px;
-    width: 45px;
-    height: 115,9px;
+    width: 100%;
 }
