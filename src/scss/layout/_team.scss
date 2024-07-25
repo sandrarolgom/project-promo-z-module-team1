@@ -1,9 +1,13 @@
+
 .equipo-container h3 {
     color:  #14d9c4;
     text-align: center;
+    line-height: 45px;
+    font-size: 24px;
 }
 .equipo-container p {
     text-align: center;
+    padding: 30px 15px;
 
 }
 .fyd {
@@ -13,13 +17,21 @@
 }
 .fyd h4 {
     color:#099d8d;
+    font-size: 22px;
+    margin-top: 30px;
 }
 
 .box {
     height: 30px;
     width: 30px;
-    background-color: red;
-    transform: rotate(45deg);
+    background-color: yellow;
+    transform: rotate(45deg) translate(0,30px);
     margin: auto;
+    opacity: 20%;
     
+}
+.equipo-container, .fyd {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
 }
