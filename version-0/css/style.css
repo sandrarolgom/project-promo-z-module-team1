@@ -8,6 +8,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .copyright {
     color: #b8b8b9;
@@ -17,6 +18,7 @@ footer {
     color: #54585a;
     text-align: center;
 }
+
 .equipo-container h3 {
     color:  #14d9c4;
     text-align: center;
@@ -29,6 +31,7 @@ footer {
     background-color: #f1f1f1;
     text-align: center;
 
+
 }
 .fyd h4 {
     color:#099d8d;
@@ -37,7 +40,7 @@ footer {
 .box {
     height: 30px;
     width: 30px;
-    background-color: red;
+    background-color:green;
     transform: rotate(45deg);
     margin: auto;
     
@@ -47,9 +50,4 @@ footer {
     width: 0;
     height: 0;
     background-color: #ffffff;
-}
-
-.figure {
-  
-    
 }
