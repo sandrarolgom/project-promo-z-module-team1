@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    color: var(--gris-claro);
+}
+.futter-list {
+    list-style: none;
+    color: var(--gris-oscuro);
+    text-align: center;
+}
