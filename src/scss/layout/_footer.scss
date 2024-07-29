@@ -1,27 +1,30 @@
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: $font-all;
+    border-top: 1px solid $gris-claro;
+    &__copyright {
+        font-size: 14px;
+        color: $gris-claro;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    &__list {
+        list-style: none;
+        color: $gris-oscuro;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    &__figure {
+        width: 116px;
+        &--logo {
+            padding-top: 15px;
+            padding-bottom: 45px;
+            width: 100%;
+        }
+    }
 }
-.copyright {
-    color: $gris-claro;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-.futter-list {
-    list-style: none;
-    color: $gris-oscuro;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-.figure {
-    width: 116px;
-}
-.logo-adalab {
-    padding-top: 15px;
-    padding-bottom: 45px;
-    width: 100%;
-}
+
