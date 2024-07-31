@@ -1,43 +1,31 @@
-
 .header {
-    &__title {
-      background-color: #099d8d;
-      color: #fff;
-      text-align: center;
-      line-height: 30px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      font-family: $font-title;
-        &__img {
-            background-image: url(/images/program.jpg);
-            background-size: cover;
-            
-        }
-      
+    height: 500px;
+    background-image: url(../images/programming.jpg);
+    background-position: center;
+    background-size: cover;
+    &__titulo {
+    background-color: #099d8d;
+     color: #fff;
+     font-family: Rubik;
+     font-size: 16px;
+     text-align: center;
+     padding-left: 80px;
+     padding-right: 80px;
+     padding-bottom: 15px;
+     padding-top: 15px;
     }
-    .ul {
+    &__list {
+        background-color: #14d9c4;
+        color: #ffffff; 
         display: flex;
-        justify-content: space-around;
         list-style: none;
-        background-color: $verde-claro;
-        padding: 10px;
-            &__li {
-                font-size: 15px;
-                line-height: 30px;
-                color: $blanco;
-                font-family: $font-title;
-                font-weight: 600;
-    
-            }
-     
-      
-          
-      
-      
-      
-    } 
-
-    
-
-
+        padding: 16px ;
+        font-family: Rubik;
+        font-size: 15px;
+        padding: 16px;
+        justify-content: space-around;
+         } 
 }
+
+ 
+    
