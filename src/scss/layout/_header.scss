@@ -1,3 +1,4 @@
+
 .header {
     &__title {
       background-color: #099d8d;
@@ -7,12 +8,17 @@
       padding-top: 15px;
       padding-bottom: 15px;
       font-family: $font-title;
-        img {
+        &__img {
             background-image: url(/images/program.jpg);
             background-size: cover;
             
-         
         }
+      
+      
+     
+      
+          
+      
       
       
     } 
