@@ -1,3 +1,14 @@
+.lema {
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    font-family: $font-all;
+    transform: translateY(-25px);
+    margin-left: 150px;
+    margin-right: 150px;
+   
+}
+
 
 .equipo {
     &__container {
