@@ -1,4 +1,6 @@
+
 .aboutus{
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,22 +15,37 @@
 .name{
     display: flex;
     flex-direction: column;
+=======
+>>>>>>> 180d7eef7aca8d3ee51c7d903cba9b1c3035794c
     text-align: center;
-  
-    &__description{
-        text-align: center;
+    font-family: $font-all;
+    flex-direction: column;
+    padding-top: 10%;
     
-
+    &__who{
+        color: $verde-claro;
     }
 }
-
-.article{
-    margin: auto;
-    &__figure{
-        width: 100%;
-    }
-       &--img{
-        width: 50%;
-         }
+.figure{
+    padding: 1%;
 }
+.img {
+    width: 50%;
+    
+}
+ .name{
+    padding: 5%;
+    font-family: $font-title;  
+ }
+
+ .description{
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+ .socialmedia{
+    padding-top: 5%;
+    
+ }
+
+
 
