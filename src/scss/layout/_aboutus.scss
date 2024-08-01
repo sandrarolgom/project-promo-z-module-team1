@@ -1,6 +1,6 @@
 .who{
     font-family: $font-title;
-    color: $verde-claro;
+    color: $verde-oscuro;
     font-size: 24px;
     text-align: center;   
     margin-top: 30px;
@@ -42,35 +42,44 @@
     align-items: center;
     margin-bottom: 45px;
     gap: 15px;
-    @media (min-width: 768px){
-      /*display: flex;
-      flex-direction: row;
-      padding-left: 45px;
-      padding: 45px;
-      display: grid;*/
+    @media (min-width:768px) {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+     
+
     
+    &__img{
+        background-color: $gris-claro;
+        width: 250px;   
+    }
     
-    
-   
 
    
+}*/
 
-.name{
-    font-family: $font-all;
-    font-size: 20px;
-    color: black;
-   
+
     
-}
-
 .description{
-    text-align: center;
-    padding-left: 45px;
-    padding-right: 45px;
-    font-family: $font-all;
-    font-size: 16px;
-    color: #54585a;
-}
+        font-family: $font-all;
+        text-align: center;
+        padding-left: 45px;
+        padding-right: 45px;
+        font-family: $font-all;
+        font-size: 16px;
+        color: $gris-claro;
+        
+    }
+.name{
+        font-family: $font-all;
+        font-size: 20px;
+        color: black;
+    }
+    
+
 
 
 .socilamedia{
@@ -78,10 +87,10 @@
 }
 .fa-brands {
     
-        color: $verde-claro;
+        color: $verde-oscuro;
     }
 .fa-solid{
-        color: $verde-claro;
+        color: $verde-oscuro;
         
 }
 
