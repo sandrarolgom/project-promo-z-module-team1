@@ -1,15 +1,108 @@
+.who{
+    font-family: $font-title;
+    color: $verde-claro;
+    font-size: 24px;
+    text-align: center;   
+    margin-top: 30px;
+    margin-bottom: 30px;
 
-.aboutus{
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+    gap: 15px;
+    
+    
+   
+    &__img{
+        background-color: $gris-claro;
+        width: 150px;
+        
+        
+    }
+
+   
+}
+.name{
+    font-family: $font-all;
+    font-size: 20px;
+    color: black;
+}
+
+.description{
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-family: $font-all;
+    font-size: 16px;
+    color: #54585a;
+}
+
+
+.socilamedia{
+    letter-spacing: normal;
+}
+.fa-brands {
+    
+        color: $verde-claro;
+    }
+.fa-solid{
+        color: $verde-claro;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.aboutus{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: $font-title;
     margin: auto;
 
-    &__tittle {
+    &__who{
         color: $verde-claro;    
     }
     
+}
+.article{
+    display: flex;
+    flex-direction: column;
+
 }
 .name{
     display: flex;
@@ -18,6 +111,7 @@
     font-family: $font-all;
     flex-direction: column;
     padding-top: 10%;
+    padding: 5%;
     
     &__who{
         color: $verde-claro;
@@ -27,13 +121,10 @@
     padding: 1%;
 }
 .img {
-    width: 50%;
-    
+    width: 20%;
+      
 }
- .name{
-    padding: 5%;
-    font-family: $font-title;  
- }
+ 
 
  .description{
     padding-left: 15px;
@@ -42,7 +133,7 @@
  .socialmedia{
     padding-top: 5%;
     
- }
+ }*/
 
 
 
